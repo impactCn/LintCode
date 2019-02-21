@@ -47,11 +47,19 @@ public class Simple2 {
 
         // 寻找5的倍数
         // 当约数越大5的倍数就越多，这个算法都不适合了
-            int count=0;
-            for(int i=5;n/i>0;i*=5){
-                count+=n/i;
-            }
-            return count;
+//            int count=0;
+//            for(int i=5;n/i>0;i*=5){
+//                count+=n/i;
+//            }
+//            return count;
+
+        // 穷举5的倍数
+        long sum = 0;
+        while (n != 0) {
+            sum += n / 5;
+            n /= 5;
+        }
+        return sum;
 
 
     }
