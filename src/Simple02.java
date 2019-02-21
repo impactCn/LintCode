@@ -1,17 +1,15 @@
-import java.math.BigDecimal;
-
 /**
  * Created by Administrator on 2019/2/1.
  * LintCode
  * 级别：简单
  * 题目：设计一个算法，计算出n阶乘中尾部零的个数
  */
-public class Simple2 {
+public class Simple02 {
 
 
 
     public static void main(String[] args) {
-        Simple2 simple2 = new Simple2();
+        Simple02 simple2 = new Simple02();
 
         System.out.println(simple2.trailingZeros(110));
     }

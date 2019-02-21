@@ -4,11 +4,11 @@
  * 级别：简单
  * 题目：计算数字k在0到n中的出现的次数，k可能是0~9的一个值
  */
-public class Middle3 {
+public class Middle03 {
 
 
     public static void main(String[] args) {
-        Middle3 middle3 = new Middle3();
+        Middle03 middle3 = new Middle03();
         System.out.println(middle3.digitCounts(1, 19));
     }
 

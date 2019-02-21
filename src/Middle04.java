@@ -7,11 +7,11 @@ import java.util.List;
  * 级别：简单
  * 题目：设计一个算法，找出只含素因子2，3，5 的第 n 小的数。
  */
-public class Middle4 {
+public class Middle04 {
 
 
     public static void main(String[] args) {
-        Middle4 middle4 = new Middle4();
+        Middle04 middle4 = new Middle04();
         System.out.println(middle4.nthUglyNumber(9));
     }
 

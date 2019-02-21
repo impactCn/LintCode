@@ -4,13 +4,13 @@
  * 级别：简单
  * 题目：给定一个字符串（以字符数组的形式给出）和一个偏移量，根据偏移量原地旋转字符串(从左向右旋转)
  */
-public class Simple8 {
+public class Simple08 {
 
 
     public static void main(String[] args) {
 
 
-        Simple8 simple8 = new Simple8();
+        Simple08 simple8 = new Simple08();
         simple8.rotateString("".toCharArray(), 10);
 
         System.out.println();

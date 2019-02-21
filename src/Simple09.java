@@ -11,10 +11,10 @@ import java.util.List;
         如果这个数能同时被3和5整除，打印fizz buzz.
         如果这个数既不能被 3 整除也不能被 5 整除，打印数字本身。
  */
-public class Simple9 {
+public class Simple09 {
 
     public static void main(String[] args) {
-        Simple9 simple9 = new Simple9();
+        Simple09 simple9 = new Simple09();
         System.out.println(simple9.fizzBuzz(15));
     }
 

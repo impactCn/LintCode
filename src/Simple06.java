@@ -1,17 +1,15 @@
-import com.sun.org.apache.regexp.internal.RE;
-
 /**
  * Created by Administrator on 2019/2/2.
  * LintCode
  * 级别：简单
  * 题目：合并两个排序的整数数组A和B变成一个新的数组。新数组也要有序。
  */
-public class Simple6 {
+public class Simple06 {
 
 
     public static void main(String[] args) {
 
-        Simple6 simple6 = new Simple6();
+        Simple06 simple6 = new Simple06();
         int[] A = new int[]{1, 2, 3, 5,5};
         int[] B = new int[]{2, 4, 2, 6};
         simple6.mergeSortedArray(A, B);

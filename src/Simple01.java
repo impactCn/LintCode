@@ -4,7 +4,7 @@
  * 级别：简单
  * 题目：给出两个整数 a 和 b , 求他们的和。
  */
-public class Simple1 {
+public class Simple01 {
 
     /**
      * @param a
