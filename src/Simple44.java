@@ -2,7 +2,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @program: LintCode
+ * @program: LintCode 简单
  * @description: 给定一个整数数组，找到一个具有最小和的子数组。返回其最小和
  * @author: SY_zheng
  * @create: 2019-02-22
