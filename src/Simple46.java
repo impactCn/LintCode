@@ -11,17 +11,6 @@ import java.util.List;
  */
 public class Simple46 {
 
-    public static void main(String[] args) {
-        Simple46 simple46 = new Simple46();
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(1);
-        list.add(1);
-        list.add(2);
-        list.add(3);
-
-        System.out.println(simple46.majorityNumber(list));
-    }
 
     /**
      * @param nums: a list of integers
@@ -44,7 +33,6 @@ public class Simple46 {
                 break;
             }
         }
-
         return temp;
 
     }
