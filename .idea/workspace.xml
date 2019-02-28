@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9124b56-f6f4-4227-a9f7-81e8a1cfecf7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Simple50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Simple53.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lintcode/Simple46.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lintcode/Simple46.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Simple46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Simple46.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,14 +54,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Simple50.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Simple50.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Simple50.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="498">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Simple41.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple41.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Simple39.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Simple39.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Simple53.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Simple53.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="35" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -93,6 +118,7 @@
         <option value="$PROJECT_DIR$/src/Middle05.java" />
         <option value="$PROJECT_DIR$/src/Simple46.java" />
         <option value="$PROJECT_DIR$/src/Simple50.java" />
+        <option value="$PROJECT_DIR$/src/Simple53.java" />
       </list>
     </option>
   </component>
@@ -116,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,7 +160,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -156,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Simple50">
+  <component name="RunManager" selected="Application.Simple53">
     <configuration name="Middle05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Middle05" />
       <module name="LintCode" />
@@ -174,6 +200,11 @@
     </configuration>
     <configuration name="Simple50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Simple50" />
+      <module name="LintCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Simple53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Simple53" />
       <module name="LintCode" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -293,9 +324,11 @@
       <item itemvalue="Application.Simple09" />
       <item itemvalue="Application.Simple46" />
       <item itemvalue="Application.Simple50" />
+      <item itemvalue="Application.Simple53" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Simple53" />
         <item itemvalue="Application.Simple50" />
         <item itemvalue="Application.Simple46" />
         <item itemvalue="Application.Middle05" />
@@ -320,12 +353,14 @@
       <workItem from="1551145548970" duration="7136000" />
       <workItem from="1551168659761" duration="631000" />
       <workItem from="1551229953520" duration="8199000" />
-      <workItem from="1551247615202" duration="315000" />
+      <workItem from="1551247615202" duration="832000" />
+      <workItem from="1551249165474" duration="620000" />
+      <workItem from="1551315824143" duration="6778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46064000" />
+    <option name="totallyTimeSpent" value="53979000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -342,47 +377,47 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32713178" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5028203" side_tool="true" weight="0.7429218" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2515773" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295583" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2515773" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4971797" weight="0.30914825" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4971797" weight="0.30835962" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2605932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26765537" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39862543" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32713178" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Properties" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25368065" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25368065" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="4" />
       <window_info anchor="right" id="Properties" order="5" />
@@ -419,7 +454,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/asd.java" />
     <entry file="file://$PROJECT_DIR$/src/Simple39.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -634,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple39.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Simple13.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -673,13 +700,6 @@
     <entry file="file://$PROJECT_DIR$/out/production/lintcode/Simple1.class" />
     <entry file="file://$PROJECT_DIR$/out/production/lintcode/Simple09.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Simple41.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/out/production/lintcode/Simple2.class" />
     <entry file="file://$PROJECT_DIR$/src/Middle05.java">
@@ -718,11 +738,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Simple50.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="43" column="9" lean-forward="true" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="498">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple41.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple39.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="33" column="70" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Simple53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
