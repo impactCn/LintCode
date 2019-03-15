@@ -26,6 +26,13 @@ public class Middle05 {
         return nums[nums.length - n];
     }
 
+
+    /**
+     * 快速排序
+     * @param nums
+     * @param low
+     * @param high
+     */
     private void quickSort(int[] nums, int low, int high) {
         int i,j,temp,t;
         if(low>high){
